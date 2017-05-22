@@ -24,3 +24,6 @@ erl_crash.dump
 /config/prod.secret.exs
 
 .DS_Store
+
+# allow npm to get the last version of tachyons see also postinstall in package.json
+web/static/css/tachyons.min.css

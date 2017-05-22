@@ -25,5 +25,8 @@ erl_crash.dump
 
 .DS_Store
 
+# The coveralls folder full of reports
+cover
+
 # allow npm to get the last version of tachyons see also postinstall in package.json
 web/static/css/tachyons.min.css

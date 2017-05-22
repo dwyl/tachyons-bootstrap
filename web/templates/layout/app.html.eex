@@ -14,15 +14,13 @@
   <body>
     <div class="">
       <header>
-        <nav>
-          <a href="https://github.com/dwyl">dwyl</a>
+        <nav class="tr pt4 w-100">
+          <h1 class="w-60 center tl">Tachyons Bootstrap Library</h1>
         </nav>
       </header>
 
        <p class="alert alert-info" role="alert"><%= get_flash(@conn, :info) %></p>
        <p class="alert alert-danger" role="alert"><%= get_flash(@conn, :error) %></p>
-
-       <h1>Tachyons Bootstrap Library</h1>
 
        <main role="main">
          <%= render @view_module, @view_template, assigns %>

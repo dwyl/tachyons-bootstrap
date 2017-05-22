@@ -3,11 +3,13 @@
   "license": "MIT",
   "scripts": {
     "deploy": "brunch build --production",
-    "watch": "brunch watch --stdin"
+    "watch": "brunch watch --stdin",
+    "postinstall": "cp node_modules/tachyons/css/tachyons.min.css web/static/css/"
   },
   "dependencies": {
     "phoenix": "file:deps/phoenix",
-    "phoenix_html": "file:deps/phoenix_html"
+    "phoenix_html": "file:deps/phoenix_html",
+    "tachyons": "^4.6.2"
   },
   "devDependencies": {
     "babel-brunch": "~6.0.0",

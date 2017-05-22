@@ -12,7 +12,7 @@ config :tachyonsBootstrap,
 # Configures the endpoint
 config :tachyonsBootstrap, TachyonsBootstrap.Endpoint,
   url: [host: "localhost"],
-  secret_key_base: "T+csuhn2CQ9JvD85czmoY+LbDeEt9DRtZX8pp4v7DYVbVo+6v9kvsNpR4RvNP3gV",
+  secret_key_base:  System.get_env("SECRET_KEY_BASE"),
   render_errors: [view: TachyonsBootstrap.ErrorView, accepts: ~w(html json)],
   pubsub: [name: TachyonsBootstrap.PubSub,
            adapter: Phoenix.PubSub.PG2]

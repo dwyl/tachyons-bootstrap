@@ -1,0 +1,28 @@
+{
+  "name": "tachyons-bootstrap",
+  "version": "1.0.0",
+  "description": "Bootstrap implemented using tachyons",
+  "main": "component_combiner.js",
+  "scripts": {
+    "test": "tape ./test/*",
+    "start": "node component_combiner.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dwyl/tachyons-bootstrap.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dwyl/tachyons-bootstrap/issues"
+  },
+  "homepage": "https://github.com/dwyl/tachyons-bootstrap#readme",
+  "dependencies": {
+    "http-server": "^0.10.0",
+    "tachyons": "^4.7.4"
+  },
+  "devDependencies": {
+    "hyperquest": "^2.1.2",
+    "tape": "^4.6.3"
+  }
+}

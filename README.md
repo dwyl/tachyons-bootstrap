@@ -1,4 +1,6 @@
 # Tachyons Bootstrap
+![Build Status](https://travis-ci.org/dwyl/tachyons-bootstrap.svg?branch=master)
+![codecov](https://codecov.io/gh/dwyl/tachyons-bootstrap/branch/master/graph/badge.svg)
 
 ## _Why_?
 

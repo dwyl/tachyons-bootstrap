@@ -10,6 +10,6 @@ addons:
 install:
   - npm install
 script:
-  - npm test
+  - npm test, coveralls.json
 after_success:
   - bash <(curl -s https://codecov.io/bash)

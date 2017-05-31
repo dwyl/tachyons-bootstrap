@@ -1,12 +1,12 @@
 var http = require('http');
-// var url = require('url');
+var port = process.env.PORT || 8000;
 var fs = require('fs');
 
-http.createServer(function (req, res) {
+var server = http.createServer(function (req, res) {
   if (req.url.length === 1) {
     homeHandler(req, res);
   }
-}).listen(8000);
+}).listen(port);
 
 function homeHandler (req, res) {
   res.writeHead(200, {'Content-type': 'text/html'});
@@ -15,3 +15,7 @@ function homeHandler (req, res) {
     res.end(data);
   });
 }
+
+module.exports = {
+  init: server
+};

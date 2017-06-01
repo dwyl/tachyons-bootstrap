@@ -2,7 +2,13 @@ var http = require('http');
 var port = process.env.PORT || 8000;
 var fs = require('fs');
 
-var components = ['/components/typography.html', '/components/form.html', '/components/button.html', '/components/image.html'];
+var components = [
+  '/components/typography.html',
+  '/components/form.html',
+  '/components/button.html',
+  '/components/image.html',
+  '/components/grid.html'
+];
 
 var server = http.createServer(function (req, res) {
   if (req.url === '/') {

@@ -2,12 +2,55 @@ const test = require('tape');
 const server = require('../component_combiner.js');
 const hyperquest = require('hyperquest');
 
+const reqUrl = 'http://localhost:8000/'
 test('check the index route', t => {
-  hyperquest.get('http://localhost:8000/', (err, response) => {
+  hyperquest.get(reqUrl, (err, response) => {
     console.log(err);
     t.equal(response.statusCode, 200, '200 status code, passed');
-    console.log(server);
-    server.init.close();
     t.end();
   });
+});
+
+test('check typography component', t => {
+  hyperquest.get(reqUrl + 'components/typography.html', (err, response) => {
+    console.log(err);
+    t.equal(response.statusCode, 200, 'typography component received successfully');
+    t.end();
+  });
+});
+
+test('check form component', t => {
+  hyperquest.get(reqUrl + 'components/form.html', (err, response) => {
+    console.log(err);
+    t.equal(response.statusCode, 200, 'form component received successfully');
+    t.end();
+  });
+});
+
+test('check button component', t => {
+  hyperquest.get(reqUrl + 'components/button.html', (err, response) => {
+    console.log(err);
+    t.equal(response.statusCode, 200, 'button component received successfully');
+    t.end();
+  });
+});
+
+test('check image component', t => {
+  hyperquest.get(reqUrl + 'components/image.html', (err, response) => {
+    console.log(err);
+    t.equal(response.statusCode, 200, 'image component received successfully');
+    t.end();
+  });
+});
+
+test('check grid component', t => {
+  hyperquest.get(reqUrl + 'components/grid.html', (err, response) => {
+    console.log(err);
+    t.equal(response.statusCode, 200, 'grid component received successfully');
+    t.end();
+  });
+});
+
+test.onFinish(() => {
+  server.init.close();
 });

@@ -1,0 +1,228 @@
+<article class="sans-serif w-70 center">
+  <h1 class="bb b--black-10">Forms</h1>
+  <h2>Basic example</h2>
+  <div class="ba br2 b--black-10 shadow-1 pa3">
+    <p class="mt0 f6 fw6 silver">EXAMPLE</p>
+    <form>
+      <div class="mv3">
+        <label class="fw7 f6" for="exampleInputEmail1">Email address</label>
+        <input type="email" class="db w-100 pa2 mt2 br2 b--black-20 f6" id="exampleInputEmail1" placeholder="Email">
+      </div>
+      <div class="mv3">
+        <label class="fw7 f6" for="exampleInputPassword1">Password</label>
+        <input type="password" class="db w-100 pa2 mt2 br2 b--black-20 f6" id="exampleInputPassword1" placeholder="Password">
+      </div>
+      <div class="mv3">
+        <label class="fw7 f6" for="exampleInputFile">File input</label>
+        <input class="mt2 f7" type="file" id="exampleInputFile">
+        <p class="gray f6 mt2">Example block-level help text here.</p>
+      </div>
+      <div class="mv3">
+        <label class="f6 pointer">
+          <input type="checkbox"> Check me out
+        </label>
+      </div>
+      <button type="submit" class="pointer br2 ba b--black-20 bg-white pa2 ml1 mv1 bg-animate hover-bg-light-gray f6">Submit</button>
+    </form>
+  </div>
+  <h2>Inline example</h2>
+  <div class="ba br2 b--black-10 shadow-1 pa3">
+    <p class="mt0 f6 fw6 silver">EXAMPLE</p>
+    <form>
+      <div class="mv3 dib">
+        <label class="fw7 f6" for="exampleInputName1">Name</label>
+        <input type="text" class="pa2 mt2 br2 b--black-20 f6" id="exampleInputName1" placeholder="Jane Doe">
+      </div>
+      <div class="mv3 dib">
+        <label class="fw7 f6" for="exampleInputEmail2">Email</label>
+        <input type="email" class="pa2 mt2 br2 b--black-20 f6" id="exampleInputEmail2" placeholder="jane.doe@example.com">
+      </div>
+      <button type="submit" class="pointer br2 ba b--black-20 bg-white pa2 ml1 mv1 bg-animate hover-bg-light-gray f6">Send invitation</button>
+    </form>
+  </div>
+  <div class="ba br2 b--black-10 shadow-1 pa3 mv3">
+    <p class="mt0 f6 fw6 silver">EXAMPLE</p>
+    <form>
+      <div class="mv3 dib">
+        <label class="absolute pa0 ma0 o-0" for="exampleInputEmail3">Email address</label>
+        <input type="email" class="pa2 mt2 br2 b--black-20 f6" id="exampleInputEmail3" placeholder="Email">
+      </div>
+      <div class="mv3 dib">
+        <label class="absolute pa0 ma0 o-0" for="exampleInputPassword3">Password</label>
+        <input type="password" class="pa2 mt2 br2 b--black-20 f6" id="exampleInputPassword3" placeholder="Password">
+      </div>
+      <div class="mv3 dib">
+        <label class="f6 pointer">
+          <input type="checkbox"> Remember me
+        </label>
+      </div>
+      <button type="submit" class="pointer br2 ba b--black-20 bg-white pa2 ml1 mv1 bg-animate hover-bg-light-gray f6">Sign in</button>
+    </form>
+  </div>
+  <div class="ba br2 b--black-10 shadow-1 pa3 mv3">
+    <p class="mt0 f6 fw6 silver">EXAMPLE</p>
+    <form class="db">
+      <div class="mv3 dib ">
+        <label class="absolute pa0 ma0 o-0" for="exampleInputAmount">Amount (in dollars)</label>
+        <div class=" relative mv3 dt dib">
+          <div class="bg-light-gray b--black-20 bb bt bl pa2 br2 br--left dtc dib">$</div>
+          <input type="text" class="dtc pa2 b--black-20 dib bt bb bw1 w-100" id="exampleInputAmount" placeholder="Amount">
+          <div class="bg-light-gray b--black-20 ba bl-0 pa2 br2 br--right dtc dib">.00</div>
+        </div>
+      </div>
+      <button type="submit" class=" dib pointer br2 ba b--navy bg-dark-blue white pa2 ml1 mt4 bg-animate hover-bg-navy v-top">Transfer cash</button>
+    </form>
+  </div>
+
+  <h2>Horizontal example</h2>
+  <div class="ba br2 b--black-10 shadow-1 pa3 mv3">
+    <p class="mt0 f6 fw6 silver">EXAMPLE</p>
+    <form>
+      <div class="mv3">
+        <label for="inputEmail3" class="fw7 f6">Email</label>
+        <input type="email" class="db w-100 pa2 mt2 br2 b--black-20 f6" id="inputEmail3" placeholder="Email">
+      </div>
+      <div class="mv3">
+        <label for="inputPassword3" class="fw7 f6">Password</label>
+        <input type="password" class="db w-100 pa2 mt2 br2 b--black-20 f6" id="inputPassword3" placeholder="Password">
+      </div>
+      <label class="f6 pointer">
+        <input type="checkbox"> Remember me
+      </label>
+      <div class="form-group">
+          <button type="submit" class="pointer br2 ba b--black-20 bg-white pa2 mv3 bg-animate hover-bg-light-gray f6">Sign in</button>
+      </div>
+    </form>
+  </div>
+
+  <h2>Supported controls</h2>
+  <h3>Inputs</h3>
+
+  <div class="ba br2 b--black-10 shadow-1 pa3 mv3">
+    <p class="mt0 f6 fw6 silver">EXAMPLE</p>
+    <input type="text" class="db w-100 pa2 mt2 br2 b--black-20 f6" placeholder="Text input">
+  </div>
+
+  <h3>Textarea</h3>
+  <div class="ba br2 b--black-10 shadow-1 pa3 mv3">
+    <p class="mt0 f6 fw6 silver">EXAMPLE</p>
+    <textarea class="db w-100 pa2 mt2 br2 b--black-20 f6" rows="3" placeholder="Textarea"></textarea>
+  </div>
+
+  <h3>Checkboxes and radios</h3>
+  <div class="ba br2 b--black-10 shadow-1 pa3 mv3">
+    <p class="mt0 f6 fw6 silver">EXAMPLE</p>
+    <div class="mv2 f6">
+      <label>
+        <input type="checkbox" value="">
+        Option one is this and that&mdash;be sure to include why it's great
+      </label>
+    </div>
+    <div class="mv2 f6">
+      <label>
+        <input type="checkbox" value="" class="cursor-not-allowed" disabled>
+        Option two is disabled
+      </label>
+    </div>
+
+    <div class="mv2 f6">
+      <label>
+        <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+        Option one is this and that&mdash;be sure to include why it's great
+      </label>
+    </div>
+    <div class="mv2 f6">
+      <label>
+        <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+        Option two can be something else and selecting it will deselect option one
+      </label>
+    </div>
+    <div class="mv2 f6">
+      <label>
+        <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" class="cursor-not-allowed" disabled>
+        Option three is disabled
+      </label>
+    </div>
+  </div>
+
+  <h3>Inline checkboxes and radios</h3>
+  <div class="ba br2 b--black-10 shadow-1 pa3 mv3">
+    <p class="mt0 f6 fw6 silver">EXAMPLE</p>
+    <form>
+      <label class="dib">
+        <input type="checkbox" id="inlineCheckbox1" value="option1"> 1
+      </label>
+      <label class="dib">
+        <input type="checkbox" id="inlineCheckbox2" value="option2"> 2
+      </label>
+      <label class="dib">
+        <input type="checkbox" id="inlineCheckbox3" value="option3"> 3
+      </label>
+    </form>
+    <br>
+    <form>
+      <label>
+        <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 1
+      </label>
+      <label>
+        <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 2
+      </label>
+      <label>
+        <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> 3
+      </label>
+    </form>
+  </div>
+
+  <h3>Checkboxes and radios without label text</h3>
+  <div class="ba br2 b--black-10 shadow-1 pa3 mv3">
+    <p class="mt0 f6 fw6 silver">EXAMPLE</p>
+    <div class="db mv3">
+      <label>
+        <input type="checkbox" id="blankCheckbox" value="option1" aria-label="...">
+      </label>
+    </div>
+    <div class="db mv3">
+      <label>
+        <input type="radio" name="blankRadio" id="blankRadio1" value="option1" aria-label="...">
+      </label>
+    </div>
+  </div>
+
+  <h3>Selects</h3>
+  <div class="ba br2 b--black-10 shadow-1 pa3 mv3">
+    <p class="mt0 f6 fw6 silver">EXAMPLE</p>
+    <select class="w-100 f6 h2 bg-white ma1 b--black-20 ">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
+  </div>
+
+  <div class="ba br2 b--black-10 shadow-1 pa3 mv3">
+    <p class="mt0 f6 fw6 silver">EXAMPLE</p>
+    <select multiple class="w-100 br2 b--black-20 ph3 pv1 f6">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
+  </div>
+
+  <h3>Static control</h3>
+  <div class="ba br2 b--black-10 shadow-1 pa3 mv3">
+    <p class="mt0 f6 fw6 silver">EXAMPLE</p>
+    <form class="w-100">
+        <label class="fw7 f6 tr w-20 dib mr2">Email</label>
+        <p class="f6 dib">email@example.com</p>
+        <br>
+        <label for="inputPassword" class="fw7 f6 tr w-20 dib mr2">Password</label>
+        <div class="w-70 mt2">
+          <input type="password" class="pa2 br2 b--black-20 f6 w-100" id="inputPassword" placeholder="Password">
+        </div>
+    </form>
+  </div>
+
+</article>

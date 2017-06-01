@@ -5,11 +5,9 @@ node_js:
 cache:
   directories:
     - "node_modules"
-addons:
-  postgresql: '9.4'
 install:
   - npm install
 script:
-  - npm test
+  - npm test coveralls.json
 after_success:
   - bash <(curl -s https://codecov.io/bash)

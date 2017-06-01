@@ -7,10 +7,11 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="stylesheet" href="https://unpkg.com/tachyons@4.7.0/css/tachyons.min.css"/>
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
     <title>Tachyons Bootstrap</title>
   </head>
   <body>
-    <div class="">
+    <div class="main">
       <header>
         <nav class="tr pt4 w-100">
           <h1 class="w-60 center tl">Tachyons Bootstrap Library</h1>
@@ -23,5 +24,11 @@
         As well as to provide a selection of useful components for people to use.
       </p>
     </div>
+
+    <div w3-include-html="/components/typography.html"></div>
+    <div w3-include-html="/components/form.html"></div>
+    <div w3-include-html="/components/button.html"></div>
+    <div w3-include-html="/components/image.html"></div>
+    <script>w3.includeHTML();</script>
   </body>
 </html>

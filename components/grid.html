@@ -44,7 +44,7 @@
   </p>
 
   <div class="">
-    <div class="w-100 h3 mb4 mb0-m mb0-l">
+    <div class="w-100 h3 mb4 mb3-m mb0-l">
       <div class="fl w-100 w-two-thirds-l pa2 bg-light-pink ba b--pink">.w-100 .w-two-thirds-l</div>
       <div class="fl w-50 w-third-l pa2 bg-light-pink ba b--pink">.w-50 .w-third-l</div>
     </div>
@@ -108,5 +108,25 @@
     <div class="fl w-50 pa2 bg-light-pink ba b--pink">.w-50</div>
     <div class="fl w-50 pa2 bg-light-pink ba b--pink">.w-50</div>
   </div>
-  <!-- <h2></h2> -->
+
+  <div class="cf"></div>
+  <h2>Nesting columns</h2>
+  <p>
+    To nest content, you will need to add an extra div with the class
+    <code>cf</code>. Nested rows should still use columns that add up to 100%
+    or less.
+  </p>
+  <div class="w-100 pv4 bg-light-pink ba b--pink">
+    <p class="ph2 ma0">Level 1: .w-100</p>
+    <div class="cf">
+      <div class="w-100">
+        <div class="fl w-50 pa2 bg-pink ba b--dark-pink">
+          Level 2: .w-50
+        </div>
+        <div class="fl w-50 pa2 bg-pink ba b--dark-pink">
+          Level 2: .w-50
+        </div>
+      </div>
+    </div>
+  </div>
 </article>

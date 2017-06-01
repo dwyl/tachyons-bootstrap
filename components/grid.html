@@ -74,5 +74,22 @@
     </div>
   </div>
 
+  <h2>Example: Column wrapping</h2>
+  <p>
+    If the columns taking up more than 100% width are placed in a single row,
+    the extra columns will wrap onto a new line.
+  </p>
+
+  <div class="w-100 h2 mb4">
+    <div class="fl w-90 pa2 bg-light-pink ba b--pink">.w-90</div>
+    <div class="fl w-30 pa2 bg-light-pink ba b--pink">
+      <p>.w-30</p>
+      <p>Since 90 + 30 > 100, this 30% width div gets wrapped onto a new line.</p>
+    </div>
+    <div class="fl w-50 pa2 bg-light-pink ba b--pink">
+      <p>.w-50</p>
+      <p>Subsequent columns continue alone the new line.</p>
+    </div>
+  </div>
 
 </article>

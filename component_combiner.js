@@ -7,7 +7,8 @@ var components = [
   '/components/form.html',
   '/components/button.html',
   '/components/image.html',
-  '/components/grid.html'
+  '/components/grid.html',
+  '/components/code.html'
 ];
 
 var server = http.createServer(function (req, res) {

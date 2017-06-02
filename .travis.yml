@@ -8,6 +8,6 @@ cache:
 install:
   - npm install
 script:
-  - npm test coveralls.json
+  - npm test
 after_success:
   - bash <(curl -s https://codecov.io/bash)

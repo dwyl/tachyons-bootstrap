@@ -9,6 +9,7 @@ var components = [
   '/components/image.html',
   '/components/grid.html',
   '/components/code.html'
+  '/components/table.html'
 ];
 
 var server = http.createServer(function (req, res) {

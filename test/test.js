@@ -2,7 +2,7 @@ const test = require('tape');
 const server = require('../component_combiner.js');
 const hyperquest = require('hyperquest');
 
-const reqUrl = 'http://localhost:8000/'
+const reqUrl = 'http://localhost:8000/';
 test('check the index route', t => {
   hyperquest.get(reqUrl, (err, response) => {
     console.log(err);

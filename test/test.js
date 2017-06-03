@@ -51,6 +51,14 @@ test('check grid component', t => {
   });
 });
 
+test('check table component', t => {
+  hyperquest.get(reqUrl + 'components/table.html', (err, response) => {
+    console.log(err);
+    t.equal(response.statusCode, 200, 'table component received successfully');
+    t.end();
+  });
+});
+
 test.onFinish(() => {
   server.init.close();
 });

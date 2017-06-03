@@ -8,6 +8,7 @@ var components = [
   '/components/button.html',
   '/components/image.html',
   '/components/grid.html',
+  '/components/code.html',
   '/components/table.html'
 ];
 

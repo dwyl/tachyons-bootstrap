@@ -55,6 +55,7 @@ test('check code component', t => {
   hyperquest.get(reqUrl + 'components/code.html', (err, response) => {
     console.log(err);
     t.equal(response.statusCode, 200, 'code component received successfully');
+    t.end();
   });
 });
 

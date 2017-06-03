@@ -14,7 +14,7 @@
       </div>
       <div class="mv3">
         <label class="fw7 f6" for="exampleInputFile">File input</label>
-        <input class="mt2 f7" type="file" id="exampleInputFile">
+        <input class="mt2 f7 w-100" type="file" id="exampleInputFile">
         <p class="gray f6 mt2">Example block-level help text here.</p>
       </div>
       <div class="mv3">
@@ -25,7 +25,8 @@
       <button type="submit" class="pointer br2 ba b--black-20 bg-white pa2 ml1 mv1 bg-animate hover-bg-light-gray f6">Submit</button>
     </form>
   </div>
-  <h2>Inline example</h2>
+
+  <h2>Inline form</h2>
   <div class="ba br2 b--black-10 shadow-1 pa3">
     <p class="mt0 f6 fw6 silver">EXAMPLE</p>
     <form>
@@ -62,7 +63,7 @@
   <div class="ba br2 b--black-10 shadow-1 pa3 mv3">
     <p class="mt0 f6 fw6 silver">EXAMPLE</p>
     <form class="db">
-      <div class="mv3 dib ">
+      <div class="mv3 dib">
         <label class="absolute pa0 ma0 o-0" for="exampleInputAmount">Amount (in dollars)</label>
         <div class=" relative mv3 dt dib">
           <div class="bg-light-gray b--black-20 bb bt bl pa2 br2 br--left dtc dib">$</div>
@@ -74,7 +75,7 @@
     </form>
   </div>
 
-  <h2>Horizontal example</h2>
+  <h2>Horizontal form</h2>
   <div class="ba br2 b--black-10 shadow-1 pa3 mv3">
     <p class="mt0 f6 fw6 silver">EXAMPLE</p>
     <form>
@@ -110,6 +111,7 @@
   </div>
 
   <h3>Checkboxes and radios</h3>
+  <h4>Default (stacked)</h4>
   <div class="ba br2 b--black-10 shadow-1 pa3 mv3">
     <p class="mt0 f6 fw6 silver">EXAMPLE</p>
     <div class="mv2 f6">
@@ -125,7 +127,7 @@
       </label>
     </div>
 
-    <div class="mv2 f6">
+    <div class="mb2 mt4 f6">
       <label>
         <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
         Option one is this and that&mdash;be sure to include why it's great
@@ -145,7 +147,7 @@
     </div>
   </div>
 
-  <h3>Inline checkboxes and radios</h3>
+  <h4>Inline checkboxes and radios</h4>
   <div class="ba br2 b--black-10 shadow-1 pa3 mv3">
     <p class="mt0 f6 fw6 silver">EXAMPLE</p>
     <form>
@@ -173,7 +175,7 @@
     </form>
   </div>
 
-  <h3>Checkboxes and radios without label text</h3>
+  <h4>Checkboxes and radios without label text</h4>
   <div class="ba br2 b--black-10 shadow-1 pa3 mv3">
     <p class="mt0 f6 fw6 silver">EXAMPLE</p>
     <div class="db mv3">
@@ -218,11 +220,142 @@
         <label class="fw7 f6 tr w-20 dib mr2">Email</label>
         <p class="f6 dib">email@example.com</p>
         <br>
-        <label for="inputPassword" class="fw7 f6 tr w-20 dib mr2">Password</label>
-        <div class="w-70 mt2">
-          <input type="password" class="pa2 br2 b--black-20 f6 w-100" id="inputPassword" placeholder="Password">
+        <div class="w-100 mt2">
+          <label for="inputPassword" class="fw7 f6 tr w-20 dib mr2">Password</label>
+          <input type="password" class="pa2 br2 b--black-20 f6 w-70" id="inputPassword" placeholder="Password">
         </div>
     </form>
   </div>
 
+  <div class="ba br2 b--black-10 shadow-1 pa3 mv3">
+    <p class="mt0 f6 fw6 silver">EXAMPLE</p>
+    <form class="w-100 mt2">
+        <label class="f6 tr w-30 dib mr2">email@example.com</label>
+        <input type="password" class="pa2 br2 b--black-20 f6 w-60" id="inputPassword" placeholder="Password">
+    </form>
+  </div>
+
+  <h3>Focus state</h3>
+  <p class="mt0 f6 fw6 silver">EXAMPLE</p>
+  <form class="w-100 mt2">
+    <input type="text" class="pa2 br2 b--light-blue f6 w-60 shadow-2" placeholder="Demonstrative focus state">
+  </form>
+
+  <h3>Disabled state</h3>
+  <p class="mt0 f6 fw6 silver">EXAMPLE</p>
+  <form class="w-100 mt2">
+    <input type="text" class="pa2 br2 b--black-20 bg-black-10 f6 w-60" placeholder="Disabled input here..." disabled>
+  </form>
+
+  <h4>Disable fieldsets</h4>
+  <p class="mt0 f6 fw6 silver">EXAMPLE</p>
+  <fieldset class="w-100 mt2" disabled>
+    <div class="mv3">
+      <label class="fw7 f6" for="disabled-input">Disabled input</label>
+      <input id="disabled-input" type="text" class="db w-100 pa2 mt2 br2 b--black-20 f6 bg-black-10" placeholder="Disabled input">
+    </div>
+
+    <div class="mv3">
+      <label class="fw7 f6" for="disabled-select">Disabled select</label>
+      <select id="disabled-select" class="w-100 f6 h2 mv1 ba b--black-20 bg-black-10">
+        <option>Disabled select</option>
+        <option>Can't see this</option>
+      </select>
+    </div>
+
+    <div class="mv3">
+      <label class="f6">
+        <input type="checkbox"> Can't check this
+      </label>
+    </div>
+  </fieldset>
+
+  <h3>Read only state</h3>
+  <p class="mt0 f6 fw6 silver">EXAMPLE</p>
+  <form class="w-100 mt2">
+    <input type="text" class="pa2 br2 b--black-20 bg-black-10 f6 w-100" placeholder="Readonly input here..." readonly>
+  </form>
+
+  <h3>Help text</h3>
+  <p class="mt0 f6 fw6 silver">EXAMPLE</p>
+  <div class="mv3">
+    <label for="inputHelpBlock" class="fw7 f6">Email</label>
+    <input type="text" class="db w-100 pa2 mt2 br2 b--black-20 f6" id="inputHelpBlock" aria-describedby="helpBlock">
+    <p id="helpBlock" class="f6 black-60 mt3">
+      A block of help text that breaks onto a new line and may extend beyond
+      one line.
+    </p>
+  </div>
+
+  <h3>Validation states</h3>
+  <p class="mt0 f6 fw6 silver">EXAMPLE</p>
+  <div class="mv3">
+    <label for="inputSuccess1" class="fw7 f6 green">Email</label>
+    <input type="text" class="db w-100 pa2 mt2 br2 b--green f6" id="inputSuccess1" aria-describedby="helpBlock2">
+    <p id="helpBlock2" class="f6 green mt3">
+      A block of help text that breaks onto a new line and may extend beyond
+      one line.
+    </p>
+  </div>
+
+  <div class="mv3">
+    <label for="inputWarning1" class="fw7 f6 gold">Email</label>
+    <input type="text" class="db w-100 pa2 mt2 br2 b--gold f6" id="inputWarning1">
+  </div>
+
+  <div class="mv3">
+    <label for="inputError1" class="fw7 f6 dark-red">Email</label>
+    <input type="text" class="db w-100 pa2 mt2 br2 b--dark-red f6" id="inputError1">
+  </div>
+
+  <div class="mv3">
+    <label class="f6 green">
+      <input type="checkbox"> Checkbox with success
+    </label>
+  </div>
+
+  <div class="mv3">
+    <label class="f6 gold">
+      <input type="checkbox"> Checkbox with warning
+    </label>
+  </div>
+
+  <div class="mv3">
+    <label class="f6 dark-red">
+      <input type="checkbox"> Checkbox with error
+    </label>
+  </div>
+
+  <h3>Control sizing</h3>
+  <h4>Height sizing</h4>
+  <p class="mt0 f6 fw6 silver">EXAMPLE</p>
+  <input type="email" class="db w-100 pv3 ph2 mt2 br2 b--black-20 f4" placeholder="pv3 input">
+  <input type="email" class="db w-100 pa2 mt2 br2 b--black-20" placeholder="pa2 input">
+  <input type="email" class="db w-100 pa2 mt2 br2 b--black-20 f6" placeholder="pa2 f6 input">
+
+  <select class="w-100 f4 h3 mt3 mb2 ba b--black-20 bg-white">
+    <option>h3 select</option>
+  </select>
+  <select class="w-100 h2 mv2 ba b--black-20 bg-white">
+    <option>h2 select</option>
+  </select>
+  <select class="w-100 f6 h2 mv2 ba b--black-20 bg-white">
+    <option>h2 f6 select</option>
+  </select>
+
+  <h4>Horizontal form group sizes</h4>
+  <div class="mv3">
+    <label for="inputLarge" class="fw7 f6">Large label</label>
+    <input type="email" id="inputLarge" class="db w-100 pv3 ph2 mt2 br2 b--black-20 f4" placeholder="pa3 input">
+  </div>
+
+  <div class="mv3">
+    <label for="inputSmall" class="fw7 f6">Small label</label>
+    <input type="email" id="inputSmall" class="db w-100 pa2 mt2 br2 b--black-20 f6" placeholder="pv2 f6 input">
+  </div>
+
+  <h4>Column sizing</h4>
+  <input type="text" class="pa2 w-10 mt2 br2 b--black-20 f6" placeholder="w-10">
+  <input type="text" class="pa2 w-25 mt2 ml3 br2 b--black-20 f6" placeholder="w-25">
+  <input type="text" class="pa2 w-third mt2 ml3 br2 b--black-20 f6" placeholder="w-third">
 </article>

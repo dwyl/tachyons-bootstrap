@@ -1,6 +1,10 @@
 <article class="sans-serif w-70 center">
   <h1 class="bb b--black-10">Typography</h1>
   <h2>Headings</h2>
+  <p>
+    All html headings, <code class="red bg-washed-red ph1 br2">&lth1&gt</code>
+    through <code class="red bg-washed-red ph1 br2">&lth6&gt, are available.</code>
+  </p>
   <div class="ba br2 b--black-10 shadow-1 pa3 mv3">
     <p class="mt0 f6 fw6 silver">EXAMPLE</p>
     <h1>h1. Bootstrap heading</h1>
@@ -9,7 +13,19 @@
     <h4>h4. Bootstrap heading</h4>
     <h5>h5. Bootstrap heading</h5>
     <h6>h6. Bootstrap heading</h6>
+    <pre class="br2 ba b--black-10 bg-light-gray pv3 pl3 pre w-100">
+&lth1&gth1. Bootstrap heading&lt/h1&gt
+&lth2&gth2. Bootstrap heading&lt/h2&gt
+&lth3&gth3. Bootstrap heading&lt/h3&gt
+&lth4&gth4. Bootstrap heading&lt/h4&gt
+&lth5&gth5. Bootstrap heading&lt/h5&gt
+&lth6&gth6. Bootstrap heading&lt/h6&gt</pre>
   </div>
+
+  <p>
+    Create lighter, secondary text by adding the
+    <code class="red bg-washed-red ph1 br2">&ltsmall&gt</code> tag.
+  </p>
   <div class="ba br2 b--black-10 shadow-1 pa3 mv3">
     <p class="mt0 f6 fw6 silver">EXAMPLE</p>
     <h1>h1. Bootstrap heading <small class="fw4 gray">Secondary text</small></h1>
@@ -18,6 +34,14 @@
     <h4>h4. Bootstrap heading <small class="fw4 gray">Secondary text</small></h4>
     <h5>h5. Bootstrap heading <small class="fw4 gray">Secondary text</small></h5>
     <h6>h6. Bootstrap heading <small class="fw4 gray">Secondary text</small></h6>
+
+    <pre class="br2 ba b--black-10 bg-light-gray pv3 pl3 pre w-100">
+&lth1&gth1. Bootstrap heading &ltsmall class="fw4 gray"&gtSecondary text&lt/small&gt&lt/h1&gt
+&lth2&gth2. Bootstrap heading &ltsmall class="fw4 gray"&gtSecondary text&lt/small&gt&lt/h2&gt
+&lth3&gth3. Bootstrap heading &ltsmall class="fw4 gray"&gtSecondary text&lt/small&gt&lt/h3&gt
+&lth4&gth4. Bootstrap heading &ltsmall class="fw4 gray"&gtSecondary text&lt/small&gt&lt/h4&gt
+&lth5&gth5. Bootstrap heading &ltsmall class="fw4 gray"&gtSecondary text&lt/small&gt&lt/h5&gt
+&lth6&gth6. Bootstrap heading &ltsmall class="fw4 gray"&gtSecondary text&lt/small&gt&lt/h6&gt</pre>
   </div>
   <h2>Body copy</h2>
   <div class="ba br2 b--black-10 shadow-1 pa3 mv3">
@@ -37,54 +61,103 @@
       elit non mi porta gravida at eget metus. Duis mollis, est non commodo
       luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
     </p>
+    <pre class="br2 ba b--black-10 bg-light-gray pv3 pl3 pre w-100">
+&ltp class="f6"&gtNullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque
+  penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam
+  id dolor id nibh ultricies vehicula.
+&lt/p&gt
+&ltp class="f6"&gt
+  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+  ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Duis
+  mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia
+  odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla.
+&lt/p&gt
+&ltp class="f6"&gt
+  Maecenas sed diam eget risus varius blandit sit amet non magna. Donec id
+  elit non mi porta gravida at eget metus. Duis mollis, est non commodo
+  luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+&lt/p&gt</pre>
   </div>
+
   <h3>Lead body copy</h3>
   <div class="ba br2 b--black-10 shadow-1 pa3 mv3">
     <p class="mt0 f6 fw6 silver">EXAMPLE</p>
-    <p class="f4 fw3 lh-copy">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
-      Duis mollis, est non commodo luctus.</p>
+    <p class="f4 fw3 lh-copy">
+      Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+      Duis mollis, est non commodo luctus.
+    </p>
+    <pre class="br2 ba b--black-10 bg-light-gray pv3 pl3 pre w-100">
+&ltp class="f4 fw3 lh-copy"&gt
+  Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+  Duis mollis, est non commodo luctus.
+&lt/p&gt</pre>
   </div>
+
   <h2>Inline text element</h2>
   <h3>Marked text</h3>
   <div class="ba br2 b--black-10 shadow-1 pa3 mv3">
     <p class="mt0 f6 fw6 silver">EXAMPLE</p>
     You can use the mark tag to <mark class="bg-light-yellow ph1">highlight</mark> text.
+    <pre class="br2 ba b--black-10 bg-light-gray pv3 pl3 pre w-100">
+You can use the mark tag to &ltmark class="bg-light-yellow ph1"&gthighlight&lt/mark&gt text.</pre>
   </div>
+
   <h3>Deleted text</h3>
   <div class="ba br2 b--black-10 shadow-1 pa3 mv3">
     <p class="mt0 f6 fw6 silver">EXAMPLE</p>
     <del>This line of text is meant to be treated as deleted text.</del>
+    <pre class="br2 ba b--black-10 bg-light-gray pv3 pl3 pre w-100">
+&ltdel&gtThis line of text is meant to be treated as deleted text.&lt/del</pre>
   </div>
+
   <h3>Strikethrough text</h3>
   <div class="ba br2 b--black-10 shadow-1 pa3 mv3">
     <p class="mt0 f6 fw6 silver">EXAMPLE</p>
     <s>This line of text is meant to be treated as no longer accurate.</s>
+    <pre class="br2 ba b--black-10 bg-light-gray pv3 pl3 pre w-100">
+&lts&gtThis line of text is meant to be treated as no longer accurate.&lt/s&gt</pre>
   </div>
+
   <h3>Inserted text</h3>
   <div class="ba br2 b--black-10 shadow-1 pa3 mv3">
     <p class="mt0 f6 fw6 silver">EXAMPLE</p>
     <ins>This line of text is meant to be treated as an addition to the document.</ins>
+    <pre class="br2 ba b--black-10 bg-light-gray pv3 pl3 pre w-100">
+&ltins&gtThis line of text is meant to be treated as an addition to the document.&lt/ins&gt</pre>
   </div>
+
   <h3>Underlined text</h3>
   <div class="ba br2 b--black-10 shadow-1 pa3 mv3">
     <p class="mt0 f6 fw6 silver">EXAMPLE</p>
     <u>This line of text will render as underlined</u>
+    <pre class="br2 ba b--black-10 bg-light-gray pv3 pl3 pre w-100">
+&ltu&gtThis line of text will render as underlined&lt/u&gt</pre>
   </div>
+
   <h3>Small text</h3>
   <div class="ba br2 b--black-10 shadow-1 pa3 mv3">
     <p class="mt0 f6 fw6 silver">EXAMPLE</p>
     <small>This line of text is meant to be treated as fine print.</small>
+    <pre class="br2 ba b--black-10 bg-light-gray pv3 pl3 pre w-100">
+&ltsmall&gtThis line of text is meant to be treated as fine print.&lt/small&gt</pre>
   </div>
+
   <h3>Bold text</h3>
   <div class="ba br2 b--black-10 shadow-1 pa3 mv3">
     <p class="mt0 f6 fw6 silver">EXAMPLE</p>
     <strong>rendered as bold text</strong>
+    <pre class="br2 ba b--black-10 bg-light-gray pv3 pl3 pre w-100">
+&ltstrong&gtrendered as bold text&lt/strong&gt</pre>
   </div>
+
   <h3>Italics</h3>
   <div class="ba br2 b--black-10 shadow-1 pa3 mv3">
     <p class="mt0 f6 fw6 silver">EXAMPLE</p>
     <em>rendered as italicized text</em>
+    <pre class="br2 ba b--black-10 bg-light-gray pv3 pl3 pre w-100">
+&ltem&gtrendered as italicized text&lt/em&gt</pre>
   </div>
+
   <h2>Alignment classes</h2>
   <div class="ba br2 b--black-10 shadow-1 pa3 mv3">
     <p class="mt0 f6 fw6 silver">EXAMPLE</p>
@@ -92,6 +165,12 @@
     <p class="tc">Center aligned text.</p>
     <p class="tr">Right aligned text.</p>
     <p class="nowrap">No wrap text.</p>
+    <pre class="br2 ba b--black-10 bg-light-gray pv3 pl3 pre w-100">
+&ltp class="mt0 f6 fw6 silver"&gtEXAMPLE&lt/p&gt
+&ltp class="tl"&gtLeft aligned text.&lt/p&gt
+&ltp class="tc"&gtCenter aligned text.&lt/p&gt
+&ltp class="tr"&gtRight aligned text.&lt/p&gt
+&ltp class="nowrap"&gtNo wrap text.&lt/p&gt</pre>
   </div>
 
   <h2>Transformation classes</h2>
@@ -100,6 +179,10 @@
     <p class="ttl">Lowercased text.</p>
     <p class="ttu">Uppercased text.</p>
     <p class="ttc">Capitalized text.</p>
+    <pre class="br2 ba b--black-10 bg-light-gray pv3 pl3 pre w-100">
+&ltp class="ttl"&gtLowercased text.&lt/p&gt
+&ltp class="ttu"&gtUppercased text.&lt/p&gt
+&ltp class="ttc"&gtCapitalized text.&lt/p&gt</pre>
   </div>
 
   <h2>Abbrieviations</h2>
@@ -107,12 +190,18 @@
   <div class="ba br2 b--black-10 shadow-1 pa3 mv3">
     <p class="mt0 f6 fw6 silver">EXAMPLE</p>
     <p>An abbreviation of the word attribute is <abbr class="f6" title="attribute">attr</abbr></p>
+    <pre class="br2 ba b--black-10 bg-light-gray pv3 pl3 pre w-100">
+&ltp&gtAn abbreviation of the word attribute is &ltabbr class="f6" title="attribute"&gtattr&lt/abbr&gt&lt/p&gt</pre>
   </div>
+
   <h3>Initialism</h3>
   <div class="ba br2 b--black-10 shadow-1 pa3 mv3">
     <p class="mt0 f6 fw6 silver">EXAMPLE</p>
     <p><abbr title="HyperText Markup Language" class="ttu f6">HTML</abbr> is the best thing since sliced bread.</p>
+    <pre class="br2 ba b--black-10 bg-light-gray pv3 pl3 pre w-100">
+&ltp&gt&ltabbr title="HyperText Markup Language" class="ttu f6"&gtHTML&lt/abbr&gt is the best thing since sliced bread.&lt/p&gt</pre>
   </div>
+
   <h2>Addresses</h2>
   <div class="ba br2 b--black-10 shadow-1 pa3 mv3">
     <p class="mt0 f6 fw6 silver">EXAMPLE</p>
@@ -127,7 +216,21 @@
       <strong>Full Name</strong><br>
       <a href="mailto:#" class="no-underline">first.last@example.com</a>
     </address>
+
+    <pre class="br2 ba b--black-10 bg-light-gray pv3 pl3 pre w-100">
+&ltaddress class="fs-normal mb3"&gt
+&ltstrong&gtTwitter, Inc.&lt/strong&gt&ltbr&gt
+1355 Market Street, Suite 900&ltbr&gt
+San Francisco, CA 94103&ltbr&gt
+&ltabbr title="Phone"&gtP:&lt/abbr&gt (123) 456-7890
+&lt/address&gt
+
+&ltaddress class="fs-normal"&gt
+  &ltstrong&gtFull Name&lt/strong&gt&ltbr&gt
+  &lta href="mailto:#" class="no-underline"&gtfirst.last@example.com&lt/a&gt
+&lt/address&gt</pre>
   </div>
+
   <h2>Blockquotes</h2>
   <h3>Default blockquote</h3>
   <div class="ba br2 b--black-10 shadow-1 pa3 mv3">
@@ -135,7 +238,12 @@
     <blockquote class="f4 bl b--black-20 bw2 pl4 ml0">
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
     </blockquote>
+    <pre class="br2 ba b--black-10 bg-light-gray pv3 pl3 pre w-100">
+&ltblockquote class="f4 bl b--black-20 bw2 pl4 ml0"&gt
+  &ltp&gtLorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.&lt/p&gt
+&lt/blockquote&gt</pre>
   </div>
+
   <h3>Blockquote options</h3>
   <h4>Naming a source</h4>
   <div class="ba br2 b--black-10 shadow-1 pa3 mv3">
@@ -144,7 +252,13 @@
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
       <footer class="f6 gray">&#x2014 Someone famous in <cite title="Source Title" class="i">Source Title</cite></footer>
     </blockquote>
+    <pre class="br2 ba b--black-10 bg-light-gray pv3 pl3 pre w-100">
+&ltblockquote class="f4 bl b--black-20 bw2 pl4 ml0"&gt
+  &ltp&gtLorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.&lt/p&gt
+  &ltfooter class="f6 gray"&gt&#x2014 Someone famous in &ltcite title="Source Title" class="i"&gtSource Title&lt/cite&gt&lt/footer&gt
+&lt/blockquote&gt</pre>
   </div>
+
   <h4>Alternate displays</h4>
   <div class="ba br2 b--black-10 shadow-1 pa3 mv3">
     <p class="mt0 f6 fw6 silver">EXAMPLE</p>
@@ -152,6 +266,11 @@
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
       <footer class="f6 gray">Someone famous in <cite title="Source Title" class="i">Source Title &#x2014</cite></footer>
     </blockquote>
+    <pre class="br2 ba b--black-10 bg-light-gray pv3 pl3 pre w-100">
+&ltblockquote class="f4 tr br b--black-20 bw2 pr4 mr0"&gt
+  &ltp&gtLorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.&lt/p&gt
+  &ltfooter class="f6 gray"&gtSomeone famous in &ltcite title="Source Title" class="i"&gtSource Title &#x2014&lt/cite&gt&lt/footer&gt
+&lt/blockquote&gt</pre>
   </div>
 
   <h2>Lists</h2>
@@ -159,58 +278,109 @@
   <div class="ba br2 b--black-10 shadow-1 pa3 mv3">
     <p class="mt0 f6 fw6 silver">EXAMPLE</p>
     <ul class="f6 lh-copy">
-    <li>Lorem ipsum dolor sit amet</li>
-    <li>Consectetur adipiscing elit</li>
-    <li>Integer molestie lorem at massa</li>
-    <li>Facilisis in pretium nisl aliquet</li>
-    <li>Nulla volutpat aliquam velit
-      <ul>
-        <li>Phasellus iaculis neque</li>
-        <li>Purus sodales ultricies</li>
-        <li>Vestibulum laoreet porttitor sem</li>
-        <li>Ac tristique libero volutpat at</li>
-      </ul>
-    </li>
-    <li>Faucibus porta lacus fringilla vel</li>
-    <li>Aenean sit amet erat nunc</li>
-    <li>Eget porttitor lorem</li>
+      <li>Lorem ipsum dolor sit amet</li>
+      <li>Consectetur adipiscing elit</li>
+      <li>Integer molestie lorem at massa</li>
+      <li>Facilisis in pretium nisl aliquet</li>
+      <li>Nulla volutpat aliquam velit
+        <ul>
+          <li>Phasellus iaculis neque</li>
+          <li>Purus sodales ultricies</li>
+          <li>Vestibulum laoreet porttitor sem</li>
+          <li>Ac tristique libero volutpat at</li>
+        </ul>
+      </li>
+      <li>Faucibus porta lacus fringilla vel</li>
+      <li>Aenean sit amet erat nunc</li>
+      <li>Eget porttitor lorem</li>
     </ul>
+
+    <pre class="br2 ba b--black-10 bg-light-gray pv3 pl3 pre w-100">
+&ltul class="f6 lh-copy"&gt
+  &ltli&gtLorem ipsum dolor sit amet&lt/li&gt
+  &ltli&gtConsectetur adipiscing elit&lt/li&gt
+  &ltli&gtInteger molestie lorem at massa&lt/li&gt
+  &ltli&gtFacilisis in pretium nisl aliquet&lt/li&gt
+  &ltli&gtNulla volutpat aliquam velit
+    &ltul&gt
+      &ltli&gtPhasellus iaculis neque&lt/li&gt
+      &ltli&gtPurus sodales ultricies&lt/li&gt
+      &ltli&gtVestibulum laoreet porttitor sem&lt/li&gt
+      &ltli&gtAc tristique libero volutpat at&lt/li&gt
+    &lt/ul&gt
+  &lt/li&gt
+  &ltli&gtFaucibus porta lacus fringilla vel&lt/li&gt
+  &ltli&gtAenean sit amet erat nunc&lt/li&gt
+  &ltli&gtEget porttitor lorem&lt/li&gt
+&lt/ul&gt</pre>
   </div>
+
   <h3>Ordered</h3>
   <div class="ba br2 b--black-10 shadow-1 pa3 mv3">
     <p class="mt0 f6 fw6 silver">EXAMPLE</p>
     <ol class="f6 lh-copy">
-    <li>Lorem ipsum dolor sit amet</li>
-    <li>Consectetur adipiscing elit</li>
-    <li>Integer molestie lorem at massa</li>
-    <li>Facilisis in pretium nisl aliquet</li>
-    <li>Nulla volutpat aliquam velit</li>
-    <li>Faucibus porta lacus fringilla vel</li>
-    <li>Aenean sit amet erat nunc</li>
-    <li>Eget porttitor lorem</li>
-  </ol>
+      <li>Lorem ipsum dolor sit amet</li>
+      <li>Consectetur adipiscing elit</li>
+      <li>Integer molestie lorem at massa</li>
+      <li>Facilisis in pretium nisl aliquet</li>
+      <li>Nulla volutpat aliquam velit</li>
+      <li>Faucibus porta lacus fringilla vel</li>
+      <li>Aenean sit amet erat nunc</li>
+      <li>Eget porttitor lorem</li>
+    </ol>
+    <pre class="br2 ba b--black-10 bg-light-gray pv3 pl3 pre w-100">
+&ltol class="f6 lh-copy"&gt
+  &ltli&gtLorem ipsum dolor sit amet&lt/li&gt
+  &ltli&gtConsectetur adipiscing elit&lt/li&gt
+  &ltli&gtInteger molestie lorem at massa&lt/li&gt
+  &ltli&gtFacilisis in pretium nisl aliquet&lt/li&gt
+  &ltli&gtNulla volutpat aliquam velit&lt/li&gt
+  &ltli&gtFaucibus porta lacus fringilla vel&lt/li&gt
+  &ltli&gtAenean sit amet erat nunc&lt/li&gt
+  &ltli&gtEget porttitor lorem&lt/li&gt
+&lt/ol&gt</pre>
   </div>
+
   <h3>Unstyled</h3>
   <div class="ba br2 b--black-10 shadow-1 pa3 mv3">
     <p class="mt0 f6 fw6 silver">EXAMPLE</p>
     <ul class="f6 lh-copy list pl0">
-    <li>Lorem ipsum dolor sit amet</li>
-    <li>Consectetur adipiscing elit</li>
-    <li>Integer molestie lorem at massa</li>
-    <li>Facilisis in pretium nisl aliquet</li>
-    <li>Nulla volutpat aliquam velit
-      <ul>
-        <li>Phasellus iaculis neque</li>
-        <li>Purus sodales ultricies</li>
-        <li>Vestibulum laoreet porttitor sem</li>
-        <li>Ac tristique libero volutpat at</li>
-      </ul>
-    </li>
-    <li>Faucibus porta lacus fringilla vel</li>
-    <li>Aenean sit amet erat nunc</li>
-    <li>Eget porttitor lorem</li>
+      <li>Lorem ipsum dolor sit amet</li>
+      <li>Consectetur adipiscing elit</li>
+      <li>Integer molestie lorem at massa</li>
+      <li>Facilisis in pretium nisl aliquet</li>
+      <li>Nulla volutpat aliquam velit
+        <ul>
+          <li>Phasellus iaculis neque</li>
+          <li>Purus sodales ultricies</li>
+          <li>Vestibulum laoreet porttitor sem</li>
+          <li>Ac tristique libero volutpat at</li>
+        </ul>
+      </li>
+      <li>Faucibus porta lacus fringilla vel</li>
+      <li>Aenean sit amet erat nunc</li>
+      <li>Eget porttitor lorem</li>
     </ul>
+    <pre class="br2 ba b--black-10 bg-light-gray pv3 pl3 pre w-100">
+&ltul class="f6 lh-copy list pl0"&gt
+  &ltli&gtLorem ipsum dolor sit amet&lt/li&gt
+  &ltli&gtConsectetur adipiscing elit&lt/li&gt
+  &ltli&gtInteger molestie lorem at massa&lt/li&gt
+  &ltli&gtFacilisis in pretium nisl aliquet&lt/li&gt
+  &ltli&gtNulla volutpat aliquam velit
+    &ltul&gt
+      &ltli&gtPhasellus iaculis neque&lt/li&gt
+      &ltli&gtPurus sodales ultricies&lt/li&gt
+      &ltli&gtVestibulum laoreet porttitor sem&lt/li&gt
+      &ltli&gtAc tristique libero volutpat at&lt/li&gt
+    &lt/ul&gt
+  &lt/li&gt
+  &ltli&gtFaucibus porta lacus fringilla vel&lt/li&gt
+  &ltli&gtAenean sit amet erat nunc&lt/li&gt
+  &ltli&gtEget porttitor lorem&lt/li&gt
+&lt/ul&gt</pre>
   </div>
+
   <h3>Inline</h3>
   <div class="ba br2 b--black-10 shadow-1 pa3 mv3">
     <p class="mt0 f6 fw6 silver">EXAMPLE</p>
@@ -219,7 +389,14 @@
       <li class="dib ph2">Phasellus iaculis</li>
       <li class="dib ph2">Nulla volutpat</li>
     </ul>
+    <pre class="br2 ba b--black-10 bg-light-gray pv3 pl3 pre w-100">
+&ltul class="f6 lh-copy list pl0"&gt
+  &ltli class="dib ph2"&gtLorem ipsum&lt/li&gt
+  &ltli class="dib ph2"&gtPhasellus iaculis&lt/li&gt
+  &ltli class="dib ph2"&gtNulla volutpat&lt/li&gt
+&lt/ul&gt</pre>
   </div>
+
   <h3>Description</h3>
   <div class="ba br2 b--black-10 shadow-1 pa3 mv3">
     <p class="mt0 f6 fw6 silver">EXAMPLE</p>
@@ -232,7 +409,18 @@
       <dt class="b">Malesuada porta</dt>
       <dd class="ml0">Etiam porta sem malesuada magna mollis euismod.</dd>
     </dl>
+    <pre class="br2 ba b--black-10 bg-light-gray pv3 pl3 pre w-100">
+&ltdl class="f6 lh-copy"&gt
+  &ltdt class="b"&gtDescription lists&lt/dt&gt
+  &ltdd class="ml0"&gtA description list is perfect for defining terms.&lt/dd&gt
+  &ltdt class="b"&gtEuismod&lt/dt&gt
+  &ltdd class="ml0"&gtVestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.&lt/dd&gt
+  &ltdd class="ml0"&gtDonec id elit non mi porta gravida at eget metus.&lt/dd&gt
+  &ltdt class="b"&gtMalesuada porta&lt/dt&gt
+  &ltdd class="ml0"&gtEtiam porta sem malesuada magna mollis euismod.&lt/dd&gt
+&lt/dl&gt</pre>
   </div>
+
   <h4>Horizontal description</h4>
   <div class="ba br2 b--black-10 shadow-1 pa3 mv3">
     <p class="mt0 f6 fw6 silver">EXAMPLE</p>
@@ -247,5 +435,17 @@
       <dt class="b tr w4 truncate fl">Felis euismod semper eget lacinia</dt>
       <dd class="ml6 pl3 tl">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus</dd>
     </dl>
+    <pre class="br2 ba b--black-10 bg-light-gray pv3 pl3 pre w-100">
+&ltdl class="f6 lh-copy"&gt
+  &ltdt class="b tr w4 truncate fl"&gtDescription lists&lt/dt&gt
+  &ltdd class="ml6 pl3 tl"&gtA description list is perfect for defining terms.&lt/dd&gt
+  &ltdt class="b tr w4 truncate fl"&gtEuismod&lt/dt&gt
+  &ltdd class="ml6 pl3 tl"&gtVestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.&lt/dd&gt
+  &ltdd class="ml6 pl3 tl"&gtDonec id elit non mi porta gravida at eget metus.&lt/dd&gt
+  &ltdt class="b tr w4 truncate fl"&gtMalesuada porta&lt/dt&gt
+  &ltdd class="ml6 pl3 tl"&gtEtiam porta sem malesuada magna mollis euismod.&lt/dd&gt
+  &ltdt class="b tr w4 truncate fl"&gtFelis euismod semper eget lacinia&lt/dt&gt
+  &ltdd class="ml6 pl3 tl"&gtFusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus&lt/dd&gt
+&lt/dl&gt</pre>
   </div>
 </article>

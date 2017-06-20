@@ -11,6 +11,14 @@ test('check the index route', t => {
   });
 });
 
+test('check style.css works', t => {
+  hyperquest.get(reqUrl, (err, response) => {
+    console.log(err);
+    t.equal(response.statusCode, 200, 'style.css received successfully');
+    t.end();
+  });
+});
+
 test('check typography component', t => {
   hyperquest.get(reqUrl + 'components/typography.html', (err, response) => {
     console.log(err);

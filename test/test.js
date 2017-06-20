@@ -12,7 +12,7 @@ test('check the index route', t => {
 });
 
 test('check style.css works', t => {
-  hyperquest.get(reqUrl, (err, response) => {
+  hyperquest.get(reqUrl + 'style.css', (err, response) => {
     console.log(err);
     t.equal(response.statusCode, 200, 'style.css received successfully');
     t.end();

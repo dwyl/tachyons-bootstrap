@@ -17,6 +17,8 @@ var server = http.createServer(function (req, res) {
     homeHandler(req, res);
   } else if (components.indexOf(req.url) > -1) {
     componentHandler(req, res);
+  } else if (req.url === '/style.css') {
+    cssHandler(req, res);
   }
 }).listen(port);
 
@@ -32,6 +34,14 @@ function componentHandler (req, res) {
   var file = req.url.replace('/', '');
   res.writeHead(200, {'Content-type': 'text/html'});
   fs.readFile(file, function (err, data) {
+    if (err) throw err;
+    res.end(data);
+  });
+}
+
+function cssHandler (req, res) {
+  res.writeHead(200, {'Content-type': 'text/css'});
+  fs.readFile('style.css', function (err, data) {
     if (err) throw err;
     res.end(data);
   });

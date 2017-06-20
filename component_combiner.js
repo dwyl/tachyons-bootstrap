@@ -47,6 +47,8 @@ function cssHandler (req, res) {
   });
 }
 
+console.log("Go to http://localhost:" + port);
+
 module.exports = {
   init: server
 };

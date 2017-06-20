@@ -5,6 +5,12 @@
 You can view & use tachyons bootstrap by visiting
 https://dwyl-tachyons-bootstrap.herokuapp.com/.
 
+Or if you wish to run it locally clone the repo and enter:
+
+`npm start` into the command line
+
+and navigate to `localhost:8000` in your browser.
+
 ## _Why_?
 
 All Client Projects & dwyl products (_for the next couple of years_) will be using the ["***PETE***" **Stack**](https://github.com/dwyl/technology-stack/#the-pete-stack).

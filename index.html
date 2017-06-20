@@ -7,32 +7,54 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="stylesheet" href="https://unpkg.com/tachyons@4.7.0/css/tachyons.min.css"/>
+    <link rel="stylesheet" href="style.css">
     <script src="https://www.w3schools.com/lib/w3.js"></script>
     <title>Tachyons Bootstrap</title>
   </head>
   <body>
-    <div class="main">
+    <div class="w-80 dib pt4">
       <header>
-        <nav class="tr pt4 w-100">
-          <h1 class="w-60 center tl">Tachyons Bootstrap Library</h1>
+        <nav class="w-60 center">
+          <a class="github-button" href="https://github.com/dwyl/tachyons-bootstrap" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star dwyl/tachyons-bootstrap on GitHub">Star</a>
+          <h1>Tachyons Bootstrap Library</h1>
         </nav>
       </header>
       <p class="w-60 center f4">
         Welcome to the Tachyons Bootstrap Standard Components Library.
         This resource has been created to showcase the potential of
-        <a href="http://tachyons.io/">Tachyons</a>, functional css.
+        <a href="http://tachyons.io/" class="black">Tachyons</a>, functional css.
         As well as to provide a selection of useful components for people to use.
       </p>
     </div>
+    <nav class="tr dib pt3 pl4 fixed">
+      <ul class="list">
+        <li class="pv1"><a href="#grid" class="link dim b gray">Grid system</a></li>
+        <li class="pv1"><a href="#typography" class="link dim b gray">Typography</a></li>
+        <li class="pv1"><a href="#code" class="link dim b gray">Code</a></li>
+        <li class="pv1"><a href="#table" class="link dim b gray">Tables</a></li>
+        <li class="pv1"><a href="#form" class="link dim b gray">Forms</a></li>
+        <li class="pv1"><a href="#button" class="link dim b gray">Buttons</a></li>
+        <li class="pv1"><a href="#image" class="link dim b gray">Images</a></li>
+      </ul>
+    </nav>
 
-    <div w3-include-html="/components/grid.html"></div>
-    <div w3-include-html="/components/typography.html"></div>
-    <div w3-include-html="/components/code.html"></div>
-    <div w3-include-html="/components/table.html"></div>
-    <div w3-include-html="/components/form.html"></div>
-    <div w3-include-html="/components/button.html"></div>
-    <div w3-include-html="/components/image.html"></div>
+    <div w3-include-html="/components/grid.html" id="grid"></div>
+    <div w3-include-html="/components/typography.html" id="typography"></div>
+    <div w3-include-html="/components/code.html" id="code"></div>
+    <div w3-include-html="/components/table.html" id="table"></div>
+    <div w3-include-html="/components/form.html" id="form"></div>
+    <div w3-include-html="/components/button.html" id="button"></div>
+    <div w3-include-html="/components/image.html" id="image"></div>
     <script>w3.includeHTML();</script>
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
+      ga('create', 'UA-63938505-1', 'auto');
+      ga('send', 'pageview');
+    </script>
   </body>
 </html>

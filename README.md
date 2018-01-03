@@ -26,15 +26,23 @@ https://github.com/dwyl/learn-tachyons#why-tachyons
 + **Video ScreenCast / Workshop** to teach the UI framework to other people (_to be tested on F&C peeps and `.then` taught to NHS/MWV/SL etc._)
 
 ## Using Tachyons Bootstrap
+Find the Tachyons Bootstrap guide at: http://tachyons-bootstrap.dwyl.com/
 
+To use it in your own project:
 
-You can view & use tachyons bootstrap by visiting http://tachyons-bootstrap.dwyl.com/.
+- Simply add `<link rel="stylesheet" href="https://unpkg.com/tachyons@4.7.0/css/tachyons.min.css"/>
+` to the head of your html file to give you access to tachyons classes.
+- Copy the component code that you wish to use from the guide.
+- **Enjoy your new components** and make them your own! :tada:
 
-Or if you wish to run it locally clone the repo and enter:
+## Running this repo
+
+If you wish to run this repo locally, clone it and enter:
 
 `npm start` into the command line
 
 and navigate to `localhost:8000` in your browser.
 
+**NB** - you don't need to run this repo to use Tachyons Bootstrap in your project, this is just an option for people who may wish to explore this repo from a technical perspective or add to it.
 
 All dwyl projects & products use the ["***PETE***" **Stack**](https://github.com/dwyl/technology-stack/#the-pete-stack), which includes tachyons.

@@ -6,7 +6,6 @@ You can view & use tachyons bootstrap by visiting http://tachyons-bootstrap.dwyl
 
 ## _Why_?
 
-All dwyl projects & products use the ["***PETE***" **Stack**](https://github.com/dwyl/technology-stack/#the-pete-stack), which includes tachyons.
 We need to make it easy for people to ship :shipit: as consistently, quickly and painlessly as possible. To aid that we need a **component guide** with detailed examples people can "**copy-paste**" from.
 
 **Tachyons Bootstrap** has been built to demonstrate the **power of tachyons and functional css** and encourage people to _understand_ the code they're implementing.
@@ -36,3 +35,6 @@ Or if you wish to run it locally clone the repo and enter:
 `npm start` into the command line
 
 and navigate to `localhost:8000` in your browser.
+
+
+All dwyl projects & products use the ["***PETE***" **Stack**](https://github.com/dwyl/technology-stack/#the-pete-stack), which includes tachyons.

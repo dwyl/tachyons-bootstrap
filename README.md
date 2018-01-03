@@ -20,10 +20,9 @@ https://github.com/dwyl/learn-tachyons#why-tachyons
 
 **Display component examples alongside their code**, so people can copy and paste to replicate them.
 
-
 ### _Still to come_
 + Create a **Tutorial Blog Post** for how tachyons bootstrap was made.
-+ **Video ScreenCast / Workshop** to teach the UI framework to other people (_to be tested on F&C peeps and `.then` taught to NHS/MWV/SL etc._)
++ Share the blog and our intro videos with the public!
 
 ## Using Tachyons Bootstrap
 Find the Tachyons Bootstrap guide at: http://tachyons-bootstrap.dwyl.com/

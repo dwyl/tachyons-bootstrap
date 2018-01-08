@@ -16,3 +16,9 @@
 .b--dwyl-darkest-teal {
   border-color: #348676;
 }
+
+@media (min-width: 600px) {
+  .w-62-ns {
+    width: 62%;
+  }
+}

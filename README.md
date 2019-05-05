@@ -1,6 +1,10 @@
 # Tachyons Bootstrap
-[![Build Status](https://travis-ci.org/dwyl/tachyons-bootstrap.svg?branch=master)](https://travis-ci.org/dwyl/tachyons-bootstrap)
-[![codecov](https://codecov.io/gh/dwyl/tachyons-bootstrap/branch/master/graph/badge.svg)](https://codecov.io/gh/dwyl/tachyons-bootstrap)
+[![Build Status](https://img.shields.io/travis/dwyl/tachyons-bootstrap/master.svg?style=flat-square)](https://travis-ci.org/dwyl/tachyons-bootstrap)
+[![codecov.io](https://img.shields.io/codecov/c/github/dwyl/tachyons-bootstrap/master.svg?style=flat-square)](http://codecov.io/github/dwyl/tachyons-bootstrap?branch=master)
+[![Dependencies Status](https://david-dm.org/dwyl/tachyons-bootstrap/status.svg?style=flat-square)](https://david-dm.org/dwyl/tachyons-bootstrap)
+[![devDependencies Status](https://david-dm.org/dwyl/tachyons-bootstrap/dev-status.svg?style=flat-square)](https://david-dm.org/dwyl/tachyons-bootstrap?type=dev)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)](https://github.com/dwyl/tachyons-bootstrap/issues)
+[![Hit Count](http://hits.dwyl.io/dwyl/tachyons-bootstrap.svg)](http://hits.dwyl.io/dwyl/tachyons-bootstrap)
 
 You can view & use tachyons bootstrap by visiting http://tachyons-bootstrap.dwyl.com/
 

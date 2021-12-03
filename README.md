@@ -4,7 +4,7 @@
 [![Dependencies Status](https://david-dm.org/dwyl/tachyons-bootstrap/status.svg?style=flat-square)](https://david-dm.org/dwyl/tachyons-bootstrap)
 [![devDependencies Status](https://david-dm.org/dwyl/tachyons-bootstrap/dev-status.svg?style=flat-square)](https://david-dm.org/dwyl/tachyons-bootstrap?type=dev)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)](https://github.com/dwyl/tachyons-bootstrap/issues)
-[![Hit Count](http://hits.dwyl.io/dwyl/tachyons-bootstrap.svg)](http://hits.dwyl.io/dwyl/tachyons-bootstrap)
+[![Hit Count](https://hits.dwyl.com/dwyl/tachyons-bootstrap.svg?style=flat-square)](http://hits.dwyl.io/dwyl/tachyons-bootstrap)
 
 You can view & use tachyons bootstrap by visiting http://tachyons-bootstrap.dwyl.com/
 

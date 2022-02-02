@@ -1,10 +1,12 @@
 # Tachyons Bootstrap
 [![Build Status](https://img.shields.io/travis/dwyl/tachyons-bootstrap/master.svg?style=flat-square)](https://travis-ci.org/dwyl/tachyons-bootstrap)
 [![codecov.io](https://img.shields.io/codecov/c/github/dwyl/tachyons-bootstrap/master.svg?style=flat-square)](http://codecov.io/github/dwyl/tachyons-bootstrap?branch=master)
-[![Dependencies Status](https://david-dm.org/dwyl/tachyons-bootstrap/status.svg?style=flat-square)](https://david-dm.org/dwyl/tachyons-bootstrap)
-[![devDependencies Status](https://david-dm.org/dwyl/tachyons-bootstrap/dev-status.svg?style=flat-square)](https://david-dm.org/dwyl/tachyons-bootstrap?type=dev)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)](https://github.com/dwyl/tachyons-bootstrap/issues)
 [![Hit Count](https://hits.dwyl.com/dwyl/tachyons-bootstrap.svg?style=flat-square)](http://hits.dwyl.io/dwyl/tachyons-bootstrap)
+<!-- Dependency badges disabled as service unavailable see: https://github.com/dwyl/tachyons-bootstrap/issues/71
+[![Dependencies Status](https://david-dm.org/dwyl/tachyons-bootstrap/status.svg?style=flat-square)](https://david-dm.org/dwyl/tachyons-bootstrap)
+[![devDependencies Status](https://david-dm.org/dwyl/tachyons-bootstrap/dev-status.svg?style=flat-square)](https://david-dm.org/dwyl/tachyons-bootstrap?type=dev)
+-->
 
 You can view & use tachyons bootstrap by visiting http://tachyons-bootstrap.dwyl.com/
 

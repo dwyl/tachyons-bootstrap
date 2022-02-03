@@ -1,12 +1,20 @@
-<article class="sans-serif w-70 center">
+<article class="sans-serif w-70 center pt3 pb3">
+	<h1 class="bb b--black-10">
+		<b class="red">C</b>
+		<b class="orange">o</b>
+		<b class="yellow">l</b>
+		<b class="green">o</b>
+		<b class="blue">r</b>
+		<b class="dark-blue">s</b>
+	</h1>
+	<p>
+		These are the default colors available in Tachyons:
+  </p>
+
   <ul class="list pl0 ml0 cf">
 	<li class="fl w-100 w-50-m w-25-l mb1">
 		<div style="background-color:#000000" class="fl w-40 pv4"></div>
 		<div class="fl w-60 lh-copy pl2 pt2"> <b class="db"> black </b> <code class="f6">#000000</code> </div>
-	</li>
-	<li class="fl w-100 w-50-m w-25-l mb1">
-		<div style="background-color:#FFFF00" class="fl w-40 pv4"></div>
-		<div class="fl w-60 lh-copy pl2 pt2"> <code class="f6">#FFFF00</code> </div>
 	</li>
 	<li class="fl w-100 w-50-m w-25-l mb1">
 		<div style="background-color:#111111" class="fl w-40 pv4"></div>
@@ -149,5 +157,48 @@
 		<div class="fl w-60 lh-copy pl2 pt2"> <b class="db"> washed-red</b> <code class="f6">#FFDFDF</code> </div>
 	</li>
 </ul>
+
+<p>
+	To use the colors, 
+	simply include the color name 
+	in the <code>class</code> 
+	list for a block of text, e.g: 
+</p>
+<pre class="pre">
+	&ltp class="red"&gt<b class="red">this text will be red</b>&ltp&gt
+</pre>
+
+<h2 class="pt2">Custom Colors</h2>
+
+<p>You can easily add your own custom colors in your CSS file. <br />
+	We have done this with our brand color.
+	e.g:
+<!-- code sample-->
+<pre>
+.dwyl-bg-mint {
+  background-color: #4BC0A9;
+}
+</pre>
+
+<!-- actual style! -->
+<style>
+	.dwyl-bg-mint {
+		background-color: #4BC0A9;
+	}
+	</style>
+
+And then we can use the background color anywhere in our site/app:
+
+<a href="https://dwyl.com"
+class="dwyl-bg-mint pointer br2 ba b--navy white pa2 ml1 mv1 f4 shadow-hover bg-animate hover-bg-navy border-box no-underline">
+	Start Today!
+</a>
+
+</p>
+
+<p>
+	For more on "skins" and accessible color combinations, see: 
+	<a href="https://tachyons.io/docs/themes/skins/" class="blue">tachyons.io/docs/themes/skins/</a>
+</p>
 </article>
 

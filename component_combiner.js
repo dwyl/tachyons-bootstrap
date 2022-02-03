@@ -4,6 +4,7 @@ var fs = require('fs');
 
 var components = [
   '/components/typography.html',
+  '/components/colors.html',
   '/components/form.html',
   '/components/button.html',
   '/components/image.html',

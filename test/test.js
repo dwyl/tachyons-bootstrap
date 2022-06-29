@@ -75,6 +75,14 @@ test('check table component', t => {
   });
 });
 
+test('check navbar component', t => {
+  hyperquest.get(reqUrl + 'components/navbar.html', (err, response) => {
+    console.log(err);
+    t.equal(response.statusCode, 200, 'navbar component received successfully');
+    t.end();
+  });
+});
+
 test.onFinish(() => {
   server.init.close();
 });

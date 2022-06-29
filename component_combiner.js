@@ -11,6 +11,7 @@ var components = [
   '/components/grid.html',
   '/components/code.html',
   '/components/table.html',
+  '/components/navbar.html',
   '/components/customisation.html'
 ];
 

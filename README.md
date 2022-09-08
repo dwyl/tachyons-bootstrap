@@ -8,7 +8,7 @@
 [![devDependencies Status](https://david-dm.org/dwyl/tachyons-bootstrap/dev-status.svg?style=flat-square)](https://david-dm.org/dwyl/tachyons-bootstrap?type=dev)
 -->
 
-You can view & use tachyons bootstrap by visiting http://tachyons-bootstrap.dwyl.com/
+You can view & use tachyons bootstrap by visiting https://tachyons-bootstrap.dwyl.com/
 
 ## _Why_?
 

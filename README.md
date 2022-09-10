@@ -1,8 +1,8 @@
 # Tachyons Bootstrap
 [![Build Status](https://img.shields.io/travis/dwyl/tachyons-bootstrap/master.svg?style=flat-square)](https://travis-ci.org/dwyl/tachyons-bootstrap)
-[![codecov.io](https://img.shields.io/codecov/c/github/dwyl/tachyons-bootstrap/master.svg?style=flat-square)](http://codecov.io/github/dwyl/tachyons-bootstrap?branch=master)
+[![codecov.io](https://img.shields.io/codecov/c/github/dwyl/tachyons-bootstrap/master.svg?style=flat-square)](https://codecov.io/github/dwyl/tachyons-bootstrap?branch=master)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)](https://github.com/dwyl/tachyons-bootstrap/issues)
-[![Hit Count](https://hits.dwyl.com/dwyl/tachyons-bootstrap.svg?style=flat-square)](http://hits.dwyl.io/dwyl/tachyons-bootstrap)
+[![Hit Count](https://hits.dwyl.com/dwyl/tachyons-bootstrap.svg?style=flat-square)](https://hits.dwyl.io/dwyl/tachyons-bootstrap)
 <!-- Dependency badges disabled as service unavailable see: https://github.com/dwyl/tachyons-bootstrap/issues/71
 [![Dependencies Status](https://david-dm.org/dwyl/tachyons-bootstrap/status.svg?style=flat-square)](https://david-dm.org/dwyl/tachyons-bootstrap)
 [![devDependencies Status](https://david-dm.org/dwyl/tachyons-bootstrap/dev-status.svg?style=flat-square)](https://david-dm.org/dwyl/tachyons-bootstrap?type=dev)
@@ -20,7 +20,7 @@ https://github.com/dwyl/learn-tachyons#why-tachyons
 
 ## _What_?
 
-**Tachyons Bootstrap** is inspired by [Bootstrap v3](http://getbootstrap.com/components) (an excellent, comprehensive and reusable set of components). It's a **component guide** built using tachyons that people can use to build/ship their apps _fast_.
+**Tachyons Bootstrap** is inspired by [Bootstrap v3](https://getbootstrap.com/components) (an excellent, comprehensive and reusable set of components). It's a **component guide** built using tachyons that people can use to build/ship their apps _fast_.
 
 ## _How_?
 
@@ -31,7 +31,7 @@ https://github.com/dwyl/learn-tachyons#why-tachyons
 + Share the blog and our intro videos with the public!
 
 ## Using Tachyons Bootstrap
-Find the Tachyons Bootstrap guide at: http://tachyons-bootstrap.dwyl.com/
+Find the Tachyons Bootstrap guide at: https://tachyons-bootstrap.dwyl.com/
 
 To use it in your own project:
 

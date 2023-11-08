@@ -1,5 +1,6 @@
 # Tachyons Bootstrap
-[![Build Status](https://img.shields.io/travis/dwyl/tachyons-bootstrap/master.svg?style=flat-square)](https://travis-ci.org/dwyl/tachyons-bootstrap)
+
+[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/dwyl/tachyons-bootstrap/Node.js%20CI?style=flat-square)](https://github.com/dwyl/tachyons-bootstrap/actions)
 [![codecov.io](https://img.shields.io/codecov/c/github/dwyl/tachyons-bootstrap/master.svg?style=flat-square)](https://codecov.io/github/dwyl/tachyons-bootstrap?branch=master)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)](https://github.com/dwyl/tachyons-bootstrap/issues)
 [![Hit Count](https://hits.dwyl.com/dwyl/tachyons-bootstrap.svg?style=flat-square)](https://hits.dwyl.io/dwyl/tachyons-bootstrap)
@@ -8,7 +9,8 @@
 [![devDependencies Status](https://david-dm.org/dwyl/tachyons-bootstrap/dev-status.svg?style=flat-square)](https://david-dm.org/dwyl/tachyons-bootstrap?type=dev)
 -->
 
-You can view & use tachyons bootstrap by visiting https://tachyons-bootstrap.dwyl.com/
+View & use Tachyons bootstrap: 
+[tachyons-bootstrap.dwyl.com](https://tachyons-bootstrap.dwyl.com)
 
 ## _Why_?
 

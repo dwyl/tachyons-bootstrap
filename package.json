@@ -1,7 +1,7 @@
 {
   "name": "tachyons-bootstrap",
   "version": "1.0.1",
-  "description": "Bootstrap implemented using tachyons",
+  "description": "Bootstrap implemented using Tachyons CSS",
   "main": "component_combiner.js",
   "scripts": {
     "test": "tape ./test/* && istanbul cover ./test/test.js",

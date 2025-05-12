@@ -20,7 +20,7 @@
   "homepage": "https://github.com/dwyl/tachyons-bootstrap#readme",
   "dependencies": {
     "http-server": "^14.1.0",
-    "pa11y": "^8.0.0",
+    "pa11y": "^9.0.0",
     "pre-commit": "^1.2.2"
   },
   "devDependencies": {

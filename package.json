@@ -21,7 +21,7 @@
   "dependencies": {
     "http-server": "^14.1.0",
     "pa11y": "^9.0.0",
-    "pre-commit": "^1.2.2"
+    "pre-commit": "^2.0.0"
   },
   "devDependencies": {
     "codecov": "^3.8.3",
